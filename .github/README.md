@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-guardduty`](https://www.npmjs.com/package/@aws-sdk/client-guardduty/v/3.592.0).
+[`@aws-sdk/client-guardduty`](https://www.npmjs.com/package/@aws-sdk/client-guardduty/v/3.595.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-guardduty@3.592.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-guardduty@3.595.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-p+w3pZ0Bg3gvcs8SiuSldOboobg8m4qWqTOxjlYgvCXTUeCA+9mTMELzHEIMlju0
+sha384-ugT36ufs3N/aRzCnrTUe6tL/9/a94X/H43x7c1PyZMXHOET7EUwb9sYLXC+JxBEV
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-guardduty": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-guardduty@3.592.0/index.min.mjs"
+            "@aws-sdk/client-guardduty": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-guardduty@3.595.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-guardduty@3.592.0/index.min.mjs": "sha384-p+w3pZ0Bg3gvcs8SiuSldOboobg8m4qWqTOxjlYgvCXTUeCA+9mTMELzHEIMlju0"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-guardduty@3.595.0/index.min.mjs": "sha384-ugT36ufs3N/aRzCnrTUe6tL/9/a94X/H43x7c1PyZMXHOET7EUwb9sYLXC+JxBEV"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-guardduty": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-guardduty@3.592.0/index.min.mjs"
+                        "@aws-sdk/client-guardduty": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-guardduty@3.595.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-guardduty@3.592.0/index.min.mjs": "sha384-p+w3pZ0Bg3gvcs8SiuSldOboobg8m4qWqTOxjlYgvCXTUeCA+9mTMELzHEIMlju0"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-guardduty@3.595.0/index.min.mjs": "sha384-ugT36ufs3N/aRzCnrTUe6tL/9/a94X/H43x7c1PyZMXHOET7EUwb9sYLXC+JxBEV"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.592.0`)
+* Always pin to a specific version (`@3.595.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-guardduty/blob/refs/tags/3.592.0/LICENSE
+https://github.com/cloud-sdk-builds/client-guardduty/blob/refs/tags/3.595.0/LICENSE
 ```
 
 ---
